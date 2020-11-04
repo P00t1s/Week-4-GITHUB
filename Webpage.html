@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Shop</title>
+    <style>
+        .column {
+           float: left;
+           width: 33.33%;
+           padding: 15px;
+       }
+       .column.side {
+           width: 33.33%;
+       }
+       .column.middle {
+           width: 33.33%;
+       }
+       @media screen and (max-width: 500px) {
+           .column {
+               width: 100%;
+           }
+       }
+       .row:after {
+       content: "";
+       display: table;
+       clear: both;
+       }
+       * {
+        box-sizing: border-box;   
+       }
+       body {
+           margin: 0px;
+       }
+       img {
+         width: 100%;
+       }
+       .header {
+           text-align: center;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           color: green;
+       }
+    </style>
+</head>
+<body>
+    <h1 class="header">Testing header</h1>
+</body>
+</html>
