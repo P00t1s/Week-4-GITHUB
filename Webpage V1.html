@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Shop</title>
+    <style>
+        .column {
+           float: left;
+           width: 33.33%;
+           padding: 15px;
+       }
+       .column.side {
+           width: 33.33%;
+       }
+       .column.middle {
+           width: 33.33%;
+       }
+       @media screen and (max-width: 500px) {
+           .column {
+               width: 100%;
+           }
+       }
+       .row:after {
+       content: "";
+       display: table;
+       clear: both;
+       }
+       * {
+        box-sizing: border-box;   
+       }
+       body {
+           margin: 0px;
+       }
+       img {
+         width: 100%;
+       }
+       .header {
+           text-align: center;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           color: green;
+       }
+       h2 {
+           color: slategrey;
+       }
+       th {
+           width: 25%;
+       }
+    </style>
+</head>
+<body>
+    <h1 class="header">Tech shop</h1>
+    <table>
+        <tr>
+            <th>
+                <img src="https://www.pbtech.co.nz/imgprod/K/E/KEYLOG1150386__4.jpg?h=3645825208">
+            </th>
+            <td>
+                <h1>Logitech K120</h1>
+                <h2>$29</h2>
+            </td>
+            <th>
+                <img src="https://www.pbtech.co.nz/imgprod/K/E/KEYADE0208__1.jpg?h=1275710059">
+            </th>
+            <td>
+                <h1>Adesso PCK-208B</h1>
+                <h2>$78</h2>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <img src="https://www.pbtech.co.nz/imgprod/M/S/MSEMST2061569__1.jpg?h=1520012615">
+            </th>
+            <td>
+                <h1>Microsoft L2 Basic Optical Mouse</h1>
+                <h2>$15</h2>
+            </td>
+            <th>
+                <img src="https://www.pbtech.co.nz/imgprod/M/S/MSELEN2418094__1.jpg?h=3664293639">
+            </th>
+            <td>
+                <h1>Lenovo 0B47153 Precision USB Mouse</h1>
+                <h2>$78</h2>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
